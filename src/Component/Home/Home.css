@@ -1,11 +1,26 @@
 .logo {
-    color: #37447E;
+    color: #111B47;
 }
-
+.body{
+    overflow-x: hidden;
+}
+.title{
+    color: #091133;
+}
+.p-tag{
+    color: #505F98;
+}
+.py{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .navbar .nav-item .nav-link {
     color: #505F98;
 }
-
+.banner{
+    overflow: hidden;
+    height: 850px;
+}
 .btn-outline{
     color: #ffffff;
     background-color: #111B47;
@@ -17,11 +32,6 @@
 
 .Footer {
     background-color: #E7ECFF;
-    margin-top: 100px;
-}
-
-.banner {
-    margin-top: 100px;
 }
 
 .banner .contant h1 {
@@ -35,23 +45,38 @@
 }
 .image1{
     position: relative;
-    bottom: 15%;
-    right: 30%;
+    bottom: 23%;
+    right: 40%;
 }
 .image2{
     position: absolute;
-    top: -5%;
+    top: 5%;
     left: 15%;
 }
-.banner-btn{
-    width: 100%;
-}
-.banner-btn-1 , .banner-btn-2{
+.banner-btn-1{
     color: #ffffff;
     background-color: #111B47;
     border-color: #111B47;
     font-weight: bold;
     border-radius: 0;
     padding: 5px 25px;
-    
+}
+
+.banner-btn-2{
+    color: #111B47;
+    background-color: #ffffff;
+    border: 2px solid #111B47;
+    font-weight: bold;
+    border-radius: 0;
+    padding: 5px 25px;
+}
+.banner .contant{
+    margin-top: 100px;
+}
+.purchese .purchese-contant img{
+    width: 2000px;
+    height: 938px;
+    position: relative;
+    top: 10%;
+    right: 30%;
 }
