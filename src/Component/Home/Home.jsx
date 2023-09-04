@@ -18,7 +18,7 @@ function Home() {
                 <section className='header'>
                     <div className='container'>
                         <div className='row d-flex align-item-center'>
-                            <div className='navbar col-5'>
+                            <div className='navbar col-5 col-xs-5  col-md-5 col-lg-5 col-sm-5'>
                                 <ul class="navbar list-unstyled">
                                     <Link to="/" class="nav-item text-decoration-none pe-5">
                                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -31,10 +31,10 @@ function Home() {
                                     </Link>
                                 </ul>
                             </div>
-                            <div className='logo col-2'>
+                            <div className='logo col-2 col-xs-2  col-md-2 col-lg-2 col-sm-2'>
                                 <p className='pt-2 fs-3 fw-bold'>Landing</p>
                             </div>
-                            <div className='btn pt-3 col-5 d-flex justify-content-end align-items-center' >
+                            <div className='btn pt-3 col-5 col-xs-5 col-md-5 col-lg-5 d-flex justify-content-end align-items-center' >
                                 <p><a href="#" class="btn-outline  text-decoration-none">Buy Now</a></p>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ function Home() {
                 <section className='banner'>
                     <div className='container'>
                         <div className='row'>
-                            <div className='contant col-6'>
+                            <div className='contant col-6 col-xs-6  col-md-6 col-sm-5'>
                                 <div clssName='text'>
                                     <h1 className='title fs-1 fw-bold'>Introduce Your Product<br /> Quickly & Effectively</h1>
                                     <p className='p-tag'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat explicabo dolor facere ipsam, id assumenda molestias nobis, esse consectetur facilis laborum officiis neque eaque quis nesciunt eligendi perferendis voluptatem eum dolorem velit</p>
@@ -54,7 +54,7 @@ function Home() {
                                     <p><a href="#" className="banner-btn-2 px-5 text-decoration-none">Learn More</a></p>
                                 </div>
                             </div>
-                            <div className='banner-image col-6'>
+                            <div className='banner-image col-6 col-xs-6  col-md-6'>
                                 <img className='image1' src={Path} alt="path" />
                                 <img className='image2' src={banner} alt="banner" />
                             </div>
@@ -64,7 +64,7 @@ function Home() {
                 <section className='feature-sec-1 py '>
                     <div className='container'>
                         <div className='row'>
-                            <div className='feature-contant col-6'>
+                            <div className='feature-contant col-6 col-xs-6  col-md-6'>
                                 <div className='feature-title py-5'>
                                     <h1 className='title pb-2 '>Light, Fast & Powerful</h1>
                                     <p className='p-tag'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat explicabo dolor facere ipsam, id assumenda, esse consectetur facilis laborum officiis neque eaque quis nesciunt eligendi perferendis voluptatem eum dolorem velit</p>
@@ -83,7 +83,7 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className='feature-image img-fluid w-50 col-5'>
+                            <div className='feature-image img-fluid w-50 col-5 col-xs-5  col-md-5'>
                                 <img src={image1} alt="image1" />
                             </div>
                         </div>
@@ -92,10 +92,10 @@ function Home() {
                 <section className='feature-sec-2 py'>
                     <div className='container'>
                         <div className='row'>
-                            <div className='feature-image img-fluid w-50 col-6'>
+                            <div className='feature-image img-fluid w-50 col-6 col-xs-6 col-md-6'>
                                 <img src={image2} alt="image2" />
                             </div>
-                            <div className='feature-contant py-5 col-6'>
+                            <div className='feature-contant py-5 col-6 col-xs-6  col-md-6'>
                                 <h1 className='title pb-2 '>Light, Fast & Powerful</h1>
                                 <p className='p-tag'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat explicabo dolor facere ipsam, id assumenda, esse consectetur facilis laborum officiis neque eaque quis nesciunt eligendi perferendis voluptatem eum dolorem velit</p>
                                 <p className='p-tag'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam corporis nisi dolorum necessitatibus  odit, veritatis saepe quo.</p>
@@ -106,10 +106,10 @@ function Home() {
                 <section className='feature-sec-3 py'>
                     <div className='container'>
                         <div className='row'>
-                            <div className='feature-image img-fluid w-50 col-6'>
+                            <div className='feature-image img-fluid w-50 col-6 col-xs-6 col-md-6'>
                                 <img src={image3} alt="image3" />
                             </div>
-                            <div className='feature-contant py-5 col-6'>
+                            <div className='feature-contant py-5 col-6 col-xs-6 col-md-6'>
                                 <h1 className='title pb-2 '>Light, Fast & Powerful</h1>
                                 <p className='p-tag'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat explicabo dolor facere ipsam, id assumenda, esse consectetur facilis laborum officiis neque eaque quis nesciunt eligendi perferendis voluptatem eum dolorem velit</p>
                                 <p className='p-tag'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam corporis nisi dolorum necessitatibus  odit, veritatis saepe quo.</p>
@@ -120,10 +120,10 @@ function Home() {
                 <section className='feature-sec-4 py'>
                     <div className='container'>
                         <div className='row'>
-                            <div className='feature-image img-fluid w-50 col-6'>
+                            <div className='feature-image img-fluid w-50 col-6 col-xs-6 col-md-6'>
                                 <img src={image4} alt="image4" />
                             </div>
-                            <div className='feature-contant py-5 col-6'>
+                            <div className='feature-contant py-5 col-6 col-xs-6 col-md-6 '>
                                 <h1 className='title pb-2 '>Light, Fast & Powerful</h1>
                                 <p className='p-tag'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat explicabo dolor facere ipsam, id assumenda, esse consectetur facilis laborum officiis neque eaque quis nesciunt eligendi perferendis voluptatem eum dolorem velit</p>
                                 <p className='p-tag'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam corporis nisi dolorum necessitatibus  odit, veritatis saepe quo.</p>
@@ -134,7 +134,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className='purchese'>
+                <section className='purchese mb-5'>
                     <div className='container'>
                         <div className='row'>
                             <div className='purchese-contant'>

@@ -75,7 +75,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section className='contact-1'>
+            <section className='contact-1 mb-5'>
                 <div className='container'>
                     <div className='row'>
                         <div className='contact-image col-5 '>
@@ -109,7 +109,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> 
             <section className='Footer'>
                 <div className='container'>
                     <div className='row '>

@@ -75,7 +75,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section className='about-1'>
+            <section className='about-1 mb-5'>
                 <div className='container'>
                     <div className='row'>
                         <div className='about-image col-5'>
